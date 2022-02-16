@@ -1,0 +1,46 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "color": "var(--bs-orange)",
+            "title": "Website Designing",
+            "description": "We are setting new standards unlike traditional designers, marketers and thinkers. We keep ourselves in the ends user's shoe to understand what exactly should be the experience of a website."
+        },
+        {
+            "id": 2,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "color": "var(--bs-orange)",
+            "title": "E-commerce",
+            "description": "Our approach to e-commerce is focused around the humans purchasing through the platform. We personalize shopping experiences in an exceptional way that users can seamlessly self-navigate and wholeheartedly trust."
+        },
+        {
+            "id": 3,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "color": "var(--bs-orange)",
+            "title": "Online Applications",
+            "description": "We build interactive yet powerful iOS/Andriod applications that solve everyday business problems. When the experience of our mobile app developers blends with the creative art of developing a mobile application, we thrive to provide your business with the best mobile experience."
+        },
+        {
+            "id": 4,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "color": "var(--bs-orange)",
+            "title": "Digital Branding",
+            "description": "Our team delivers digital branding campaigns across a range of channels and platforms, that eliminates your toughest challenges."
+        },
+        {
+            "id": 5,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "color": "var(--bs-orange)",
+            "title": "Digital Marketing",
+            "description": "Equipped with diverse outlook and expertise, our high-spirited team develop top-notch digital experiences that evolve companies. Our team delivers digital campaigns across a range of channels and platforms, that eliminates your toughest challenges."
+        },
+        {
+            "id": 6,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "color": "var(--bs-orange)",
+            "title": "Bulk SMS",
+            "description": "We provide most affordable bulk SMS services and custom packages that suit your requirements."
+        }
+    ]
+}

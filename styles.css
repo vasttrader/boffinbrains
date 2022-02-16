@@ -12,28 +12,29 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 button {
   border: 0;
 }
 
+ul {
+  padding-left: 1rem;
+  margin: 0;
+}
+
 /* Custom Classes */
 
-.full-width-banner {
+.full-width {
   height: calc(100vh - 82px);
-  display: flex;
-  align-items: center;
 }
 
 .btn-light {
@@ -46,11 +47,6 @@ button {
   transition: all 0.4s ease-in-out;
 }
 
-.background-img {
-  background-color: var(--bs-primary);
-  color: #fff;
-}
-
 .letter-spacing {
   letter-spacing: 5px;
 }
@@ -60,43 +56,69 @@ button {
 }
 
 .divider {
-    position: relative;
-    color: var(--bs-purple);
-    margin: 1.6rem 0;
-    display: inline-block;
+  position: relative;
+  color: var(--bs-purple);
+  margin: 1.6rem 0;
+  display: inline-block;
 }
 
 .divider::before {
-    content: '- - - - - - - - -';
-    position: absolute;
-    color: var(--bs-purple);
-    width: 100px;
-    font-size: 1.2rem;
-    left: 45px;
+  content: "- - - - - - - - -";
+  position: absolute;
+  color: var(--bs-purple);
+  width: 100px;
+  font-size: 1.2rem;
+  left: 45px;
 }
 
 .divider::after {
-    content: '- - - - - - - - -';
-    position: absolute;
-    color: var(--bs-purple);
-    width: 100px;
-    font-size: 1.2rem;
-    right: 45px;
+  content: "- - - - - - - - -";
+  position: absolute;
+  color: var(--bs-purple);
+  width: 100px;
+  font-size: 1.2rem;
+  right: 45px;
 }
 
 .avatar {
-    width: 70px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.focus-shadow {
+  transition: all 0.4s ease-in-out;
+}
+
+.focus-shadow:hover {
+  box-shadow: 0px 0px 26px 1px #00000010;
+  transition: all 0.4s ease-in-out;
+}
+
+.bg-purple {
+  background-color: var(--bs-purple);
+}
+
+.custom-list {
+  list-style-image: url("./images/chevron.png");
+}
+
+.text-purple {
+  color: var(--bs-purple);
 }
 
 /* Bootstrap 5  */
 
+.bg-primary {
+  background-color: var(--bs-primary)!important;
+  color: #fff;
+}
+
 .text-primary {
-    color: var(--bs-primary);
+  color: var(--bs-primary)!important;
 }
 
 .nav-link {
@@ -129,4 +151,22 @@ button {
 .btn-primary:hover.btn-primary {
   background-color: var(--bs-purple-light);
   transition: all 0.4s ease-in-out;
+}
+
+.form-control {
+  background-color: transparent;
+  padding: 1rem;
+  color: var(--bs-secondary);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--bs-purple);
+  background-color: transparent;
+}
+
+.form-select {
+  background-color: transparent;
+  padding: 1rem;
+  color: var(--bs-secondary);
 }
