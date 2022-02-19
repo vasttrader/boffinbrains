@@ -42,5 +42,25 @@
             "title": "Bulk SMS",
             "description": "We provide most affordable bulk SMS services and custom packages that suit your requirements."
         }
+    ],
+    "about": [
+        {
+            "id": 1,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "title": "Pushing Limits",
+            "description": "We are always committed to break through every limit to provide our customers a perfectly tailored solution."
+        },
+        {
+            "id": 2,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "title": "With Intellect",
+            "description": "Our team is mix of experienced and fresh talents possessing a zest to make a difference with their intellect."
+        },
+        {
+            "id": 3,
+            "icon": "<i class='fa-solid fa-bezier-curve fa-xl'></i>",
+            "title": "& Values",
+            "description": "Our values are the soul of our company. We a never ever compromise on our values."
+        }
     ]
 }
