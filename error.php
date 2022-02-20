@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 | Page Not Found</title>
+    <title>Oops something went wrong!</title>
     <style>
         html,
         body {
@@ -34,9 +34,9 @@
     <main>
         <div style="text-align: center;">
             <h1>
-                404 | Page Not Found
+                Oops something went wrong :(
             </h1>
-            <a href="index.html">
+            <a href="index.php">
                 Back to Home
             </a>
         </div>
